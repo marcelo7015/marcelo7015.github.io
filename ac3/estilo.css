@@ -1,0 +1,31 @@
+.titulo{
+	color: red; 
+	font-style: italic; 
+	text-decoration: underline; 
+	text-align: center;
+}
+
+.body {
+    font-family:Arial Helvetica, sans-serif;
+}
+
+.estilo_1{    
+	color: red; 
+}
+
+.estilo_2{
+	color: rgba(21, 228, 31, 0.801); 
+}
+
+.underline{
+	text-decoration: underline;; 
+}
+
+.left {
+    text-align: left;
+}
+
+.header{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black; 
+}
