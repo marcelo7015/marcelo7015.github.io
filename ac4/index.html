@@ -1,0 +1,68 @@
+<!DOCTYPE hmtl>
+
+<html>
+    
+    <head>
+        <meta charset="UTF-8" />         
+        <link rel="stylesheet" href="estilo.css">            
+        <title>AC 4</title>
+    </head>
+
+    <body>
+
+        <form>
+
+            <label for="nomeCompleto">Nome Completo:</label><br/>
+            <input type="text" name="nomeCompleto" id="nomeCompleto" maxlength="20">
+            <br/><br/>
+            <label for="endereco">Endereço:</label><br/>
+            <input type="text" name="endereco" id="endereco" maxlength="30">
+            <br/><br/>
+            <label for="cidade">Cidade:</label><br/>
+            <input type="text" name="cidade" id="cidade" >
+            <br/><br/>
+
+            <label for="uf">UF:</label><br/>
+            <select class="personalizar-select" name="uf" id="uf">
+                <option class="personalizar-option">SP</option>
+                <option class="personalizar-option">RJ</option>
+                <option class="personalizar-option">PR</option>
+                <option class="personalizar-option">SC</option>
+                <option class="personalizar-option">RS</option> 
+                <option class="personalizar-option">AC</option>
+            </select>
+            <br/><br/>
+
+            <label for="rg">RG:</label><br/>
+            <input type="text" name="rg" id="rg">
+            <br/><br/>
+            <label for="cpf">CPF:</label><br/>
+            <input type="text" name="cpf" id="cpf" maxlength="11">
+            <br/><br/>
+            <label for="email">Email:</label><br/>
+            <input type="email" name="email" id="email" maxlength="20">
+            <br/><br/>
+            <label for="redesocial">Rede Social:</label><br/>
+            <input type="checkbox" name="facebook" id="facebook"/>Facebook
+            <input type="checkbox" name="twitter"/>Twitter
+            <input type="checkbox" name="whatsapp"/>Whatsapp
+            <input type="checkbox" name="outros"/>Outros
+            <br/><br/>
+
+            <label for="curso">Curso:</label><br/>
+            <select class="personalizar-select" name="curso" id="curso">
+                <option class="personalizar-option" value="">Selecione</option>
+                <option class="personalizar-option" value="Redes">Redes</option>
+                <option class="personalizar-option" value="ADS">ADS</option>
+                <option class="personalizar-option" value="SI">SI</option>
+            </select>
+
+            <br/><br/>
+            <label for="motivacao">Motivo da Inscrição:</label><br/>
+            <textarea name="motivacao" id="motivacao" rows="4" cols="50" maxlength="100"></textarea>
+            <br/><br/>
+        </form>
+
+    </body>
+
+</html>
