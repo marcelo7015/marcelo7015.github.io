@@ -47,7 +47,7 @@ class ProfessorTests(TestCase):
     '''
     devemos ter uma exception quando o professor vier sem login    
     '''
-    def ntest_02_sem_login(self):
+    def test_02_sem_login(self):
         professor = Professor()
         professor.nome='lucas'
         professor.celular='99999'
